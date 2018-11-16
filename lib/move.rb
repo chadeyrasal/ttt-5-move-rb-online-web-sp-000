@@ -19,5 +19,3 @@ def move(board, converted_input, character = "X")
   board[converted_input] = character
 end
 
-move(board, 0, "X")
-move(board, 8, "X")
