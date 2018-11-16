@@ -14,3 +14,7 @@ def input_to_index(user_input)
 rescue
   converted_input = -1
 end
+
+def move
+  
+end
