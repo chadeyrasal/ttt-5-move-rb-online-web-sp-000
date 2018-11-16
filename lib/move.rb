@@ -16,5 +16,7 @@ rescue
 end
 
 def move(board, converted_input = 2, character)
-  board[converted_input] = "O"
+  board[converted_input] = character
 end
+
+move(board, 0, "X")
