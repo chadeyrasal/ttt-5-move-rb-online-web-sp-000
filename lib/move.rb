@@ -15,6 +15,6 @@ rescue
   converted_input = -1
 end
 
-def move
+def move(board, converted_input, character)
   
 end
