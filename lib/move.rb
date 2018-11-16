@@ -12,5 +12,5 @@ end
 def input_to_index(user_input)
   converted_input = Integer(user_input) - 1
 rescue
-  puts -1
+  converted_input = -1
 end
