@@ -16,6 +16,6 @@ rescue
 end
 
 def move(board, converted_input, character = "X")
-
+  input_to_index(user_input)
   board[converted_input] = character
 end
