@@ -20,3 +20,4 @@ def move(board, converted_input = 2, character)
 end
 
 move(board, 0, "X")
+move(board, 8, "X")
